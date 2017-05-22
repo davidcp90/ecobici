@@ -1,0 +1,516 @@
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,700);
+.ecobici {
+  font-family: "Yellowtail", cursive;
+  font-size: 25px;
+  font-size: 2.5rem; }
+
+.ecobici_p {
+  font-family: "Yellowtail", cursive;
+  font-size: 23px;
+  font-size: 2.2rem; }
+
+.background_full, .ico_cap1::before, .ico_cap2::before, .ico_cap3::before, .ico_cap4::before, .ico_cap5::before, .c1, .c2, .c3, .c4, .c5, .bici_separador, .footer_normatividad, .footer_reglamento, .footer_bicicleta, .teach_separador, .pedalear_separador, .footer_habilidades, .eco_separador {
+  background-repeat: no-repeat;
+  background-size: cover !important; }
+
+.display_ico_curso, .ico_cap1::before, .ico_cap2::before, .ico_cap3::before, .ico_cap4::before, .ico_cap5::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-left: -37px; }
+
+.footer-logo-eco {
+  position: relative;
+  top: -4px;
+  width: 60px; }
+
+.container_curso, .container_capitulos {
+  display: block;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #000; }
+
+.container_curso .row {
+  margin: 0 !important; }
+
+.fa {
+  font-size: 14px;
+  font-size: 2rem; }
+
+.container_curso img, .container_capitulos img {
+  width: 100%; }
+
+.descripcion {
+  margin-top: 20px;
+  font-size: 16px;
+  font-size: 1.7rem; }
+
+.curso {
+  display: inline-table;
+  margin: 5px;
+  width: 136px;
+  height: 200px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  color: #fff; }
+
+.descripcion ul {
+  display: block;
+  margin: auto;
+  width: 400px; }
+
+.cap {
+  display: block; }
+
+.negro {
+  color: #000; }
+
+.ico_cap1::before {
+  background: url(../img/ico_c1.png); }
+
+.ico_cap2::before {
+  background: url(../img/ico_c2.png); }
+
+.ico_cap3::before {
+  background: url(../img/ico_c3.png); }
+
+.ico_cap4::before {
+  background: url(../img/ico_c4.png); }
+
+.ico_cap5::before {
+  background: url(../img/ico_c5.png); }
+
+.c1 {
+  background: url(../img/pdf_c1.png); }
+
+.c1:hover {
+  box-shadow: 4px 4px 7px rgba(23, 121, 122, 0.7); }
+
+.c2 {
+  background: url(../img/pdf_c2.png); }
+
+.c2:hover {
+  box-shadow: 4px 4px 7px rgba(249, 174, 59, 0.48); }
+
+.c3 {
+  background: url(../img/pdf_c3.png); }
+
+.c3:hover {
+  box-shadow: 4px 4px 7px rgba(13, 115, 204, 0.54); }
+
+.c4 {
+  background: url(../img/pdf_c4.png); }
+
+.c4:hover {
+  box-shadow: 4px 4px 7px rgba(239, 90, 36, 0.68); }
+
+.c5 {
+  background: url(../img/pdf_c5.png); }
+
+.curso a {
+  color: #fff; }
+
+.container_examen img {
+  display: block;
+  margin: auto;
+  max-width: 400px; }
+
+.title_examen {
+  font-size: 30px;
+  font-size: 3rem; }
+
+td {
+  padding: 4px; }
+
+.examen label {
+  font-size: 18px;
+  font-size: 2rem; }
+
+.btn-primary {
+  background-color: #4CA867;
+  border-color: #4CA867; }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: #3a4764;
+  border-color: #3a4764; }
+
+.btn_alcurso {
+  float: left;
+  font-size: 1.4rem;
+  background: #428bca;
+  color: #fff;
+  padding: 10px;
+  border-radius: 11px;
+  margin-top: 10px; }
+
+.btn_alcurso:hover {
+  background: #eea236;
+  color: #fff;
+  box-shadow: 1px 1px 1px #eea236; }
+
+.btn_alexamen {
+  float: right;
+  font-size: 1.4rem;
+  background: #d43f3a;
+  color: #fff;
+  padding: 10px;
+  border-radius: 11px;
+  margin-top: 10px; }
+
+.btn_alexamen:hover {
+  background: #3c763d;
+  color: #fff;
+  box-shadow: 1px 1px 1px #3c763d; }
+
+.title_c1 {
+  color: #17797A; }
+
+.norma_separador {
+  background-color: #F9AE3B;
+  padding: 20px; }
+
+.bici_separador {
+  height: 420px;
+  background-image: url(../img/bici-separador.jpg); }
+
+.responsive_separador {
+  background-color: #8AC43E;
+  padding: 20px; }
+
+.footer_normatividad {
+  margin-top: 30px;
+  height: 550px;
+  background-image: url(../img/footer_normatividad.jpg);
+  color: #fff; }
+
+.pricing {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto 3em; }
+
+.pricing__item {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  text-align: center;
+  -webkit-flex: 0 1 250px;
+  flex: 0 1 250px; }
+
+.pricing__feature-list {
+  text-align: left; }
+
+.pricing__action {
+  color: inherit;
+  border: none;
+  background: none; }
+
+.pricing__action:focus {
+  outline: none; }
+
+.pricing--palden .pricing__item {
+  font-family: "Nunito", sans-serif;
+  cursor: default;
+  color: #84697c;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(46, 59, 125, 0.23);
+  border-radius: 20px 20px 10px 10px;
+  margin: 1em; }
+
+@media screen and (min-width: 66.25em) {
+  .pricing--palden .pricing__item {
+    margin: 1em -0.5em; }
+
+  .pricing--palden .pricing__item--featured {
+    margin: 0;
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(46, 59, 125, 0.23); } }
+.pricing--palden .pricing__deco {
+  border-radius: 10px 10px 0 0;
+  background: #F5911E;
+  padding: 4em 0 9em;
+  position: relative; }
+
+.pricing--palden .pricing__deco-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 160px; }
+
+.pricing--palden .pricing__item--featured .pricing__deco {
+  padding: 5em 0 8.885em 0; }
+
+.pricing--palden .pricing__title {
+  font-size: 0.75em;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #ffd5bd; }
+
+.pricing--palden .deco-layer {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s; }
+
+.pricing--palden .pricing__item:hover .deco-layer--1 {
+  -webkit-transform: translate3d(15px, 0, 0);
+  transform: translate3d(15px, 0, 0); }
+
+.pricing--palden .pricing__item:hover .deco-layer--2 {
+  -webkit-transform: translate3d(-15px, 0, 0);
+  transform: translate3d(-15px, 0, 0); }
+
+.pricing--palden .icon {
+  font-size: 2.5em; }
+
+.pricing--palden .pricing__price {
+  font-size: 4em;
+  font-weight: bold;
+  padding: 0;
+  color: #fff;
+  margin: 0 0 0.25em 0;
+  line-height: 0.75; }
+
+.pricing--palden .pricing__currency {
+  font-size: 0.15em;
+  vertical-align: top;
+  color: rgba(0, 0, 0, 0.4); }
+
+.pricing--palden .pricing__period {
+  font-size: 0.15em;
+  padding: 0 0 0 0.5em;
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic; }
+
+.pricing--palden .pricing__sentence {
+  font-weight: bold;
+  margin: 0 0 1em 0;
+  padding: 0 0 0.5em; }
+
+.pricing--palden .pricing__feature-list {
+  margin: 0;
+  padding: 0.25em 0 2.5em;
+  list-style: none;
+  text-align: center; }
+
+.pricing--palden .pricing__feature {
+  padding: 1em 0; }
+
+.pricing--palden .pricing__action {
+  font-weight: bold;
+  margin: auto 3em 2em 3em;
+  padding: 1em 2em;
+  color: #fff;
+  border-radius: 30px;
+  background: #F5911E;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s; }
+
+.pricing--palden .pricing__action:hover,
+.pricing--palden .pricing__action:focus {
+  background-color: #3a4764; }
+
+.title_c2 {
+  color: #F9AE3B; }
+
+.footer_reglamento {
+  height: 550px;
+  background-image: url(../img/footer_reglamento.jpg);
+  color: #fff; }
+
+.title_c3 {
+  color: #1573CB; }
+
+.container_bici img {
+  display: block;
+  margin: auto; }
+
+.footer_bicicleta {
+  height: 370px;
+  background-image: url(../img/footer_bici.jpg);
+  color: #fff; }
+
+.title_c4 {
+  color: #EF5A24; }
+
+.teach_separador {
+  height: 436px;
+  background-image: url(../img/ensenamos.jpg); }
+
+.pasos_title {
+  font-size: 40px;
+  font-size: 5rem; }
+
+.pedalear_separador {
+  height: 436px;
+  background-image: url(../img/pedalear.jpg); }
+
+.container_habilidades {
+  display: block;
+  margin: auto;
+  max-width: 960px;
+  width: 80%; }
+
+.footer_habilidades {
+  height: 550px;
+  background-image: url(../img/footer_habilidades.jpg);
+  color: #fff; }
+
+.eco_separador {
+  height: 700px;
+  background-image: url(../img/footer_ecoestaciones.jpg); }
+
+.ecobici .fa-graduation-cap {
+  font-size: 70px;
+  font-size: 7rem; }
+
+/* ----------- Galaxy S5 ----------- */
+/* Portrait */
+@media screen and (min-width: 320px) and (orientation: portrait) {
+  .header {
+    min-height: 50px; }
+
+  ul.top-menu > li > .logout {
+    font-size: 11px;
+    font-size: 1rem;
+    padding: 2px 5px;
+    margin-top: 15px; }
+
+  .sidebar-toggle-box .fa-bars {
+    font-size: 15px;
+    font-size: 1.6rem; }
+
+  .logo-eco {
+    top: 0;
+    width: 95px;
+    width: 9rem; }
+
+  a.logo b {
+    font-size: 1rem; }
+
+  .wrapper {
+    margin-top: 50px; }
+
+  .descripcion ul {
+    display: block;
+    margin: auto;
+    width: 259px; }
+
+  .container_capitulos {
+    padding: 0 15px; }
+
+  .bici_separador {
+    height: 130px; }
+
+  .teach_separador, .pedalear_separador {
+    height: 177px; }
+
+  .eco_separador {
+    height: 248px; }
+
+  .footer_normatividad, .footer_reglamento, .footer_bicicleta, .footer_habilidades {
+    height: 257px; }
+
+  .cap {
+    font-size: 12px;
+    font-size: 1.2rem;
+    width: 103px;
+    height: 140px; } }
+/* Landscape */
+@media screen and (min-width: 320px) and (orientation: landscape) {
+  .pedalear_separador {
+    height: 266px; }
+
+  .eco_separador {
+    height: 410px; }
+
+  .footer_normatividad, .footer_reglamento, .footer_bicicleta, .footer_habilidades {
+    height: 350px; } }
+@media screen and (min-width: 400px) {
+  .container_capitulos {
+    padding: 0 15px; }
+
+  .descripcion ul {
+    width: 400px; }
+
+  .bici_separador, .pedalear_separador {
+    height: 290px; } }
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .curso {
+    display: block; }
+
+  .container_curso {
+    padding-bottom: 21px; }
+
+  .eco_separador {
+    height: 488px; }
+
+  .footer_normatividad, .footer_reglamento, .footer_bicicleta, .footer_habilidades {
+    height: 400px; } }
+/* Landscape */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .container_curso {
+    padding-bottom: 8px; }
+
+  .container_capitulos {
+    max-width: 960px; }
+
+  .footer_normatividad {
+    height: 429px; }
+
+  .eco_separador {
+    height: 410px; } }
+@media screen and (max-width: 992px) {
+  .small_img {
+    display: block;
+    visibility: visible; }
+
+  .normal_img {
+    display: none;
+    visibility: hidden; } }
+@media screen and (min-width: 1024px) {
+  .container_capitulos {
+    max-width: 960px; }
+
+  .normal_img {
+    display: block;
+    visibility: visible; }
+
+  .small_img {
+    display: none;
+    visibility: hidden; }
+
+  .bici_separador, .pedalear_separador {
+    height: 460px; }
+
+  .footer_normatividad, .eco_separador {
+    height: 674px; }
+
+  .footer_habilidades, .footer_reglamento {
+    height: 414px; }
+
+  .row {
+    clear: both; } }
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .container_capitulos {
+    max-width: 1024px; } }
+@media screen and (min-width: 1200px) and (max-device-width: 1600px) {
+  .container_capitulos {
+    max-width: 1024px; } }
+
+/*# sourceMappingURL=style_curso.css.map */

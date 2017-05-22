@@ -1,0 +1,25 @@
+<?php
+$I = new FunctionalTester($scenario);
+$I->wantTo('create billing data for user with visa anually');
+$I->amOnPage('/admin/user/billing/1');
+$I->fillField('payment_type', '2');
+$I->fillField('reference', '4567890778963452');
+$I->fillField('payment_period', '3');
+$I->click('button[type=submit]');
+$I->see('El registro se creo correctamente');
+$B = new FunctionalTester($scenario);
+$B->wantTo('create billing data for user with master anually');
+$B->amOnPage('/admin/user/billing/1');
+$B->fillField('payment_type', '3');
+$B->fillField('reference', '4567890778963452');
+$B->fillField('payment_period', '3');
+$B->click('button[type=submit]');
+$B->see('El registro se creo correctamente');
+$C = new FunctionalTester($scenario);
+$C->wantTo('create billing data for user with etb monthly');
+$C->amOnPage('/admin/user/billing/1');
+$C->fillField('payment_type', '5');
+$C->fillField('reference', '4567890778963452');
+$C->fillField('payment_period', '1');
+$C->click('button[type=submit]');
+$C->see('El registro se creo correctamente');

@@ -1,0 +1,27 @@
+.title_c4{color:$habilidades;}
+.teach_separador{
+ 	height: 436px;
+    background-image:url(../img/ensenamos.jpg);
+    @extend .background_full;
+}
+.pasos_title{
+	font-size:40px;
+	font-size:5rem;
+}
+.pedalear_separador{
+ 	height: 436px;
+    background-image:url(../img/pedalear.jpg);
+    @extend .background_full;
+}
+.container_habilidades{
+	display:block;
+	margin:auto;
+	max-width:960px; 
+	width:80%;
+}
+.footer_habilidades{
+    height: 550px;
+    background-image:url(../img/footer_habilidades.jpg);
+    @extend .background_full;
+    color: $white;
+}

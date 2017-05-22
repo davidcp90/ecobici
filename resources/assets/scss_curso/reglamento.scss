@@ -1,0 +1,20 @@
+.title_c2{color:$reglamento;}
+.footer_reglamento{
+    height: 550px;
+    background-image:url(../img/footer_reglamento.jpg);
+    @extend .background_full;
+    color: $white;
+}
+
+//Bicicleta
+.title_c3{color:$bicicleta;}
+.container_bici img{
+	display:block;
+	margin:auto;
+}
+.footer_bicicleta{
+    height: 370px;
+    background-image:url(../img/footer_bici.jpg);
+    @extend .background_full;
+    color: $white;
+}

@@ -1,0 +1,134 @@
+.footer-logo-eco{position:relative;top:-4px; width:60px;}
+//Curso Ecobici
+.container_curso,.container_capitulos{
+    display:block;
+    margin:auto;
+    font-family: $font-curso;
+    font-weight: 300;
+    color: $negro;
+}
+.container_curso .row{margin:0!important;}
+.fa {
+    font-size:14px;
+    font-size:2rem;
+}
+.container_curso img,.container_capitulos img{
+    width: $size_img;
+}
+.descripcion{    
+    margin-top: 20px;
+    font-size: 16px;
+    font-size: 1.7rem;
+}
+.curso {
+    display: inline-table;
+    margin: 5px;
+    width: 136px;
+    height: 200px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    color: $white;
+}
+.descripcion ul{
+      display: block;
+      margin: auto;
+      width: 400px;
+}
+.cap{display:block;}
+
+.negro{color:$negro;}
+.ico_cap1::before{ @extend .display_ico_curso; @extend .background_full; background: $ico_c1;}
+.ico_cap2::before{ @extend .display_ico_curso; @extend .background_full; background: $ico_c2;}
+.ico_cap3::before{ @extend .display_ico_curso; @extend .background_full; background: $ico_c3;}
+.ico_cap4::before{ @extend .display_ico_curso; @extend .background_full; background: $ico_c4;}
+.ico_cap5::before{ @extend .display_ico_curso; @extend .background_full; background: $ico_c5;}
+
+.c1 {
+    background: $c1;
+    @extend .background_full;
+}
+.c1:hover{
+    box-shadow: 4px 4px 7px rgba(23, 121, 122, 0.7);
+}
+.c2 {
+    background: $c2;
+     @extend .background_full;
+}
+.c2:hover{
+    box-shadow: 4px 4px 7px rgba(249, 174, 59, 0.48);
+}
+.c3 {
+    background: $c3;
+     @extend .background_full;
+}
+.c3:hover{
+    box-shadow: 4px 4px 7px rgba(13, 115, 204, 0.54);
+}
+.c4 {
+    background: $c4;
+     @extend .background_full;
+}
+.c4:hover{
+    box-shadow: 4px 4px 7px rgba(239, 90, 36, 0.68);
+}
+
+.c5 {
+    background: $c5;
+     @extend .background_full;
+}
+.curso a{color: $white;}
+.container_examen img{
+    display: block;
+    margin:auto;
+    max-width: 400px;
+}
+.title_examen{
+    font-size: 30px;
+    font-size: 3rem;
+
+}
+td {
+    padding:4px;
+}
+.examen label{
+    font-size: 18px;
+    font-size: 2rem;
+}
+.btn-primary{
+    background-color: #4CA867;
+    border-color: #4CA867;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active{
+     background-color: #3a4764;
+    border-color: #3a4764;
+}
+.btn_alcurso{
+    float: left;
+    font-size: 1.4rem;
+    background: #428bca;
+    color: #fff;
+    padding: 10px;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+.btn_alcurso:hover{
+    background: #eea236;
+    color: #fff;
+    box-shadow: 1px 1px 1px #eea236;
+}
+.btn_alexamen{
+    float: right;
+    font-size: 1.4rem;
+    background: #d43f3a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+.btn_alexamen:hover{
+    background: #3c763d;
+    color: #fff;
+    box-shadow: 1px 1px 1px #3c763d;
+}

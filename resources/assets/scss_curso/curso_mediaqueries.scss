@@ -1,0 +1,190 @@
+/* ----------- Galaxy S5 ----------- */
+
+
+/* Portrait */
+@media screen 
+  and (min-width: 320px)
+  and (orientation: portrait) {
+      .header{
+        min-height: 50px;
+      }
+      ul.top-menu>li>.logout{
+        font-size: 11px;
+        font-size: 1rem;
+        padding: 2px 5px;
+        margin-top: 15px;
+      }
+      .sidebar-toggle-box .fa-bars{
+        font-size: 15px;
+        font-size: 1.6rem;
+      }
+      .logo-eco{
+        top: 0;
+        width: 95px;
+        width: 9rem;
+      }
+      a.logo b{
+      font-size: 1rem;
+    }
+    
+    .wrapper{
+      margin-top: 50px;
+    }
+    .descripcion ul{
+      display: block;
+      margin: auto;
+      width: 259px;
+    }
+    .container_capitulos{
+      padding: 0 15px;
+    }
+    .bici_separador{
+      height: 130px;
+    }
+    .teach_separador,.pedalear_separador{
+      height: 177px;
+    }
+    .eco_separador{
+      height: 248px;
+    }
+
+    .footer_normatividad,.footer_reglamento,.footer_bicicleta,.footer_habilidades{
+      height: 257px;
+    }
+
+    .cap{
+      font-size: 12px;
+      font-size: 1.2rem;
+      width: 103px;
+      height: 140px;
+    }
+}
+
+/* Landscape */
+@media screen 
+  and (min-width: 320px) 
+  and (orientation: landscape) {
+    .pedalear_separador{
+      height: 266px;
+    }
+    .eco_separador{
+      height: 410px;
+    }
+    .footer_normatividad,.footer_reglamento,.footer_bicicleta,.footer_habilidades{
+      height: 350px;
+    }
+   
+}
+@media screen 
+  and (min-width: 400px) 
+  {
+    .container_capitulos{
+      padding: 0 15px;
+    }
+     .descripcion ul{
+      width: 400px;
+    }
+    .bici_separador,.pedalear_separador{
+      height: 290px;
+    }
+  }
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (orientation: portrait)  {
+    .curso{
+      display: block
+    }
+    .container_curso{
+      padding-bottom: 21px;
+    }
+     .eco_separador{
+      height: 488px;
+    }
+    .footer_normatividad,.footer_reglamento,.footer_bicicleta,.footer_habilidades {
+      height: 400px;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (orientation: landscape) 
+  {
+    .container_curso{
+          padding-bottom: 8px;
+    }
+    .container_capitulos{
+      max-width: 960px;
+    }
+    .footer_normatividad {
+      height: 429px;
+    }
+    .eco_separador{
+      height: 410px;
+    }
+
+}
+@media screen 
+  and (max-width:992px)  
+  {
+
+    .small_img{
+      display: block;
+      visibility: visible;
+    }
+    .normal_img{
+      display:none;
+      visibility:hidden;
+    }
+    
+}
+
+@media screen 
+  and (min-width:1024px)  
+  {
+    .container_capitulos{
+      max-width: 960px;
+    }
+    .normal_img{
+      display:block;
+      visibility:visible;
+    }
+    .small_img {
+      display: none;
+      visibility: hidden;
+    }
+    .bici_separador,.pedalear_separador {
+      height: 460px;
+    }
+    .footer_normatividad,.eco_separador {
+      height: 674px;
+    }
+    .footer_habilidades,.footer_reglamento{
+      height: 414px;
+    }
+    .row{clear:both}
+}
+/* ----------- Non-Retina Screens ----------- */
+
+@media screen 
+  and (min-width: 1025px) 
+  and (max-width: 1200px) 
+ { 
+    .container_capitulos{
+      max-width: 1024px;
+    }
+}
+@media screen 
+  and (min-width: 1200px) 
+  and (max-device-width: 1600px) 
+  { 
+    .container_capitulos{
+      max-width: 1024px;
+    }
+}
+

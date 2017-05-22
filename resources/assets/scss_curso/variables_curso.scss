@@ -1,0 +1,52 @@
+//Fuentes
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,700);
+$font-ecobici: 'Yellowtail', cursive;
+$font-curso: 'Roboto', sans-serif;
+
+//Colores
+$white: #fff;
+$negro:#000;
+$normatividad: #17797A;
+$reglamento:#F9AE3B;
+$verde:#8AC43E;
+$bicicleta:#1573CB;
+$habilidades:#EF5A24;
+
+.ecobici{
+    font-family: $font-ecobici;
+    font-size: 25px;
+    font-size: 2.5rem;
+}
+.ecobici_p{
+	font-family: $font-ecobici;
+    font-size: 23px;
+    font-size: 2.2rem;
+}
+
+//Tamaños
+$size_img: 100%;
+.background_full{
+	background-repeat: no-repeat;
+ 	background-size: cover!important;
+}
+.display_ico_curso{
+	content: '';
+	position: absolute;
+	width: 30px;
+    height: 30px;
+    margin-left: -37px;
+}
+
+//Fondos
+$ico_c1: url(../img/ico_c1.png);
+$ico_c2: url(../img/ico_c2.png);
+$ico_c3: url(../img/ico_c3.png);
+$ico_c4: url(../img/ico_c4.png);
+$ico_c5: url(../img/ico_c5.png);
+
+$c1: url(../img/pdf_c1.png);
+$c2: url(../img/pdf_c2.png);
+$c3: url(../img/pdf_c3.png);
+$c4: url(../img/pdf_c4.png);
+$c5: url(../img/pdf_c5.png);
